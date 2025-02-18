@@ -1,0 +1,85 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.title span {
+  display: inline-block;
+  background-image: linear-gradient(to right, #3b82f6, #ef4444);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.description {
+  color: #9ca3af;
+  font-weight: 500;
+}
+
+.description a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.description a:hover {
+  text-decoration: underline;
+}
+
+.hidden-thead thead {
+  display: none;
+}
+
+.no-survey-padding .sd-body.sd-body--static {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.no-survey-padding .sd-body.sd-body--responsive {
+  padding: 0px;
+}
+.no-survey-padding .sd-page {
+  padding: 0px;
+}
+
+.no-survey-padding .sd-question__header--location-top {
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
+  padding-bottom: 8px;
+}
+
+/* .sd-root-modern {
+  background-color: #ffffff !important;
+  height: auto !important;
+}
+
+.sd-body.sd-body--responsive {
+  padding: 0 !important;
+}
+.sd-body.sd-body--static {
+  @apply !p-0 !m-0 !max-w-full;
+}
+
+.sd-page {
+  @apply !p-0;
+}
+
+.sd-action-bar {
+  padding: 0 !important;
+  display: block !important;
+} */

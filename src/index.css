@@ -1,0 +1,31 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  line-height: 1.5;
+  tab-size: 4;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.sv-question__title--answer {
+  @apply !bg-white;
+}
+
+.sv-body {
+  @apply !pb-4;
+}
+
+.sv-tagbox__item {
+  height: 2.5em !important;
+}
